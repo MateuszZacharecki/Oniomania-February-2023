@@ -10,8 +10,8 @@ The are various types of shops. Ordinary shops are... ordinary. Chains of shops 
 The city keeps a list of all shops (chains and shops not connected in chains) and of citizens (customers).
 
 Customers have some budget, which may be used for presents. Different customers use different strategies in shopping. Some of them have their favourite shop and always buy there using one of the strategies:
-- Maximilizers buy the most expensive available present they can afford in their favourite shop
-- Minimilizers buy the cheapest available present they can afford in their favourite shop
+- Maximizers buy the most expensive available present they can afford in their favourite shop
+- Minimizers buy the cheapest available present they can afford in their favourite shop
 - Randomers try a few times (for instance 3 times, established number) to choose randomly chosen present (offered in the shop), if it's available (number of items is greater than zero) and randomer can afford it, he chooses it (and doesn't draw again), otherwise randomer draws again (if only he has any attempts to drawing left)
 
 Others try to buy in any shops in city, however they look for particular product. It's assumed that they look for only one product during the simulation. Frugals collect a list of shops in the city, they find out about prices of product they're looking for in every shop and buy it in a shop where the product is the cheapest (if a few shops offer the same price for the product, they buy it in any of these shops). Traditionalists don't buy online and they look for the nearest shop that offers the product they look for (if there are a few shops in the same distance, they choose any of these shops). Every customer and every ordinary shop knows their position, represented by two real numbers x and y. Distance means the ordinary, Euclidean distance on a plane.
