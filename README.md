@@ -1,4 +1,4 @@
-# Oniomania-February-2023 (IN PROGRESS...)
+# Oniomania-February-2023
 ## Intro
 As the battle dust after Christmas shopping haven't settled yet, let's simulate it.
 
